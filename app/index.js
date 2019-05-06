@@ -16,12 +16,12 @@ import { initClickHeat } from '../clickheat';
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDFHRHphesySO_9uWRp1pXpFqtLh5nbWQM",
-  authDomain: "clickheat-web-app.firebaseapp.com",
-  databaseURL: "https://clickheat-web-app.firebaseio.com",
-  projectId: "clickheat-web-app",
-  storageBucket: "clickheat-web-app.appspot.com",
-  messagingSenderId: "220854168219"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
 };
 
 // Initialize Firebase
