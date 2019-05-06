@@ -1,4 +1,5 @@
 ClickHeat
+===========
 
 This code helps to register clicks and view clicks on any page.
 
