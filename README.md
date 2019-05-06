@@ -1,6 +1,8 @@
 ClickHeat
 ===========
 
+![Screenshot](Screenshot.png)
+
 This code helps to register clicks and view clicks on any page.
 
 Currently data is stored on firebase which helps for easy storage and retrieval of data.
