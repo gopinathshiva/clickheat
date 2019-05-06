@@ -9,7 +9,7 @@ const dirNode = 'node_modules';
 const dirApp = path.join(__dirname, 'app');
 const dirAssets = path.join(__dirname, 'assets');
 
-const appHtmlTitle = 'Webpack Boilerplate';
+const appHtmlTitle = 'ClickHeat';
 
 /**
  * Webpack Configuration
@@ -61,27 +61,6 @@ module.exports = {
                             sourceMap: IS_DEV
                         }
                     },
-                ]
-            },
-
-            // CSS / SASS
-            {
-                test: /\.scss/,
-                use: [
-                    'style-loader',
-                    {
-                        loader: 'css-loader',
-                        options: {
-                            sourceMap: IS_DEV
-                        }
-                    },
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            sourceMap: IS_DEV,
-                            includePaths: [dirAssets]
-                        }
-                    }
                 ]
             },
 
