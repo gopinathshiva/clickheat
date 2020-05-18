@@ -297,6 +297,8 @@ function initClickHeat({
 	showClickHeatDebug('ClickHeat initialised with:<br/>site = ' + clickHeatSite + '<br/>group = ' + clickHeatGroup + '<br/>server = ' + clickHeatServer + '<br/>quota = ' + (clickHeatQuota === -1 ? 'unlimited' : clickHeatQuota) + '<br/>browser = ' + clickHeatBrowser + '<br/><br/><strong>Click in a blank area (not on a link) to test ClickHeat</strong>');
 }
 
+// blank commit
+
 export {
   initClickHeat
 }
