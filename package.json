@@ -16,7 +16,7 @@
   "dependencies": {
     "firebase": "^5.10.0",
     "heatmap.js": "^2.0.5",
-    "lodash": "4.17.11"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "@babel/core": "7.4.3",
